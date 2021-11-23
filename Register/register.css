@@ -1,0 +1,89 @@
+form{
+    text-align: center;
+}
+
+html{
+    background-color: #ccc;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    margin-top: 0px;
+}
+label{
+    display: block;
+    margin-left: 10px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    padding: 9px;
+    border: 1px solid #eee;
+    outline: none;
+    margin-bottom: 22px;
+    width: 300px;
+    margin-top: 5px;
+    
+}
+select{
+    width: 20%;
+    
+}
+
+.titulo{
+    background-color: #000;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+.selecao{
+    width: 30px;
+}
+#botao{
+    margin: 30px;
+    background-color: #000;
+    color: #fff;  
+    border-radius: 5px;  
+    border: 0px;
+}
+#botao:hover{
+    background-color: #8B795E;
+    color: #000;
+}
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+#termos{
+    width: 4%;
+}
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+  }

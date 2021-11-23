@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="register.css">
+<html>
+    <meta charset="UTF-8">
+<head>
+    <title>Formulário de Teste</title>
+</head>
+<body>
+    <div class="titulo">
+    <h1>XHamburguer</h1>
+    </div>
+    <form action="teste.php">
+        <label for="primeironome">
+            Nome:<br/>
+            <input type="text" name="firstname" placeholder="Primeiro Nome" id="primeironome" autocomplete="off" minlength="2" required>
+        </label>
+         
+        <!-- Algumas pessoas não tem sobrenome, então não preciso do required aqui -->
+
+        <label for="sobrenome">
+            Sobrenome:<br>
+            <input type="text" name="lastname" placeholder="Sobrenome" id="sobrenome" autocomplete="off">
+        </label>
+
+        <label for="email">
+            E-mail:<br>
+            <input type="email" name="email" placeholder="email@cliente" autocomplete="off" id="email" required pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" title="enderecoemail">
+        </label>
+
+        <label for="senha">
+            Senha:<br>
+            <input type="password" name="password" placeholder="Sua senha" id="senha" required>
+        </label>
+
+        <label for="dtnascimento">
+            Data de Nascimento:<br>
+            <input type="date" name="birthdate" id="dtnascimento" max="2021-11-23">
+        </label>
+
+        <label> 
+            Como conheceu a empresa:<br>
+            <input type="checkbox" name="search" class="selecao"> Site de busca&nbsp;
+            <input type="checkbox" name="facebook" class="selecao"> Facebook&nbsp;
+            <input type="checkbox" name="instagram" class="selecao"> Instagram&nbsp;
+        </label>
+
+        <label for="genero">
+            Gênero:<br>
+            <select name="gender" id="genero" size="1">
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>    
+            </select>
+        </label>
+        <label for="termos"><br>
+            <input type="checkbox" id="termos" required>Eu Declaro que Li e aceito os <a href="*" target="blank">termos de uso.</a>
+        </label>
+        <br/>
+        <div class="cadastro">
+            <input type="submit" name="submit" value="Cadastrar" id="botao">
+        </div>
+    </form>
+
+    <div class="img">
+        <img src="imgs/diet.png">
+    </div>
+
+    <div class="copyright">
+        <p>Todos os direitos reservados © 2021</p>
+    </div>
+
+</body>
+</html>
